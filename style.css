@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 /* Error: Can't find stylesheet to import.
  *   ,
  * 3 |         "scss/layout/header";
  *   |         ^^^^^^^^^^^^^^^^^^^^
  *   '
  *   style.scss 3:9  root stylesheet */
+=======
+/* Error: Undefined variable.
+ *   ,
+ * 2 | $menu_burger:$menu_burger;
+ *   |              ^^^^^^^^^^^^
+ *   '
+ *   scss\abstract\_variable.scss 2:14  @import
+ *   style.scss 2:9                     root stylesheet */
+>>>>>>> main
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +23,10 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
+<<<<<<< HEAD
   content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502          \"scss/layout/header\";\a   \2502          ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   style.scss 3:9  root stylesheet";
 }
+=======
+  content: "Error: Undefined variable.\a   \2577 \a 2 \2502  $menu_burger:$menu_burger;\d\a   \2502               ^^^^^^^^^^^^\a   \2575 \a   scss\\abstract\\_variable.scss 2:14  @import\a   style.scss 2:9                     root stylesheet";
+}
+>>>>>>> main
