@@ -1,7 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: orange;
+/* Error: Undefined variable.
+ *   ,
+ * 2 | $menu_burger:$menu_burger;
+ *   |              ^^^^^^^^^^^^
+ *   '
+ *   scss\abstract\_variable.scss 2:14  @import
+ *   style.scss 2:9                     root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 2 \2502  $menu_burger:$menu_burger;\d\a   \2502               ^^^^^^^^^^^^\a   \2575 \a   scss\\abstract\\_variable.scss 2:14  @import\a   style.scss 2:9                     root stylesheet";
 }
-
-
