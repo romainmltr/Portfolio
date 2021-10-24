@@ -1,31 +1,64 @@
 @import url(https://fonts.google.com/specimen/Kumbh+Sans);
+body {
+  background-color: rgba(190, 160, 190, 0.685);
+}
+
 .container {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font: 150% sans-serif;
+  font: 200% sans-serif;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  list-style: none;
+}
+.container li a {
+  background: rgba(123, 193, 173, 0.15);
+  box-shadow: 0 9px 32px 0 rgba(56, 58, 92, 0.513);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 5px;
+  border: 1, 5px solid rgba(255, 255, 255, 0.315);
+  text-decoration: none;
 }
 
 .presentation {
-  background-color: #b8bb25;
+  background: linear-gradient(74deg, #eeaeca 0%, #94bbe9 100%);
   align-content: center;
-  border-color: black;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+}
+
+.presentation_text p {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .photo_perso {
   grid-column: 1/2;
   grid-row: 1/4;
+  width: 100%;
+}
+
+.photo_perso img:hover {
+  transform: scale(0.75);
+  opacity: 0, 8;
+  transition: all 0.2s;
 }
 
 .presentation_text {
-  grid-column: 2/4;
+  grid-column: 2/5;
   grid-row: 1/3;
   color: #000;
-  font-size: 60px;
+  font-size: 250%;
+  height: 100px;
 }
 
 #titre {
