@@ -1,32 +1,37 @@
-<<<<<<< HEAD
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 |         "scss/layout/header";
- *   |         ^^^^^^^^^^^^^^^^^^^^
- *   '
- *   style.scss 3:9  root stylesheet */
-=======
-/* Error: Undefined variable.
- *   ,
- * 2 | $menu_burger:$menu_burger;
- *   |              ^^^^^^^^^^^^
- *   '
- *   scss\abstract\_variable.scss 2:14  @import
- *   style.scss 2:9                     root stylesheet */
->>>>>>> main
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font: 150% sans-serif;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-<<<<<<< HEAD
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502          \"scss/layout/header\";\a   \2502          ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   style.scss 3:9  root stylesheet";
+.presentation {
+  background-color: #b8bb25;
+  align-content: center;
+  border-color: black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 400px;
 }
-=======
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502  $menu_burger:$menu_burger;\d\a   \2502               ^^^^^^^^^^^^\a   \2575 \a   scss\\abstract\\_variable.scss 2:14  @import\a   style.scss 2:9                     root stylesheet";
+
+.photo_perso {
+  grid-column: 1/2;
+  grid-row: 1/4;
 }
->>>>>>> main
+
+.presentation_text {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  color: #000;
+  font-size: 60px;
+}
+
+#titre {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  font-size: 5vh;
+}
+
+/*# sourceMappingURL=style.css.map */

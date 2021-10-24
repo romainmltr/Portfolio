@@ -1,5 +1,7 @@
-@import "scss/abstract/mixins",
-        "scss/abstract/variable",
-        "scss/layout/header",
-        "scss/component/button",
+@import "scss/abstract/_mixins",
+        "scss/abstract/_variable",
+        "scss/layout/_header",
+        "scss/component/button.scss",
         "scss/layout/presentation.scss";
+
+@import url(https://fonts.google.com/specimen/Kumbh+Sans); 

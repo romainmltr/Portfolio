@@ -1,9 +1,6 @@
-.list_menu{
-    color: red;
-    font-size: 55000px;
-}
-
-#menu_burger{
-background-color: red;
-
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font: 150% sans-serif;
 }
