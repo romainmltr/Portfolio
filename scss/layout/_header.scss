@@ -22,3 +22,22 @@ body  {
     }
 }
 
+#nav ul {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav ul a {
+    text-decoration: none;
+    font-size: 100%;
+    background: rgba( 123, 193, 173, 0.15 );
+    box-shadow: 0 9px 32px 0 rgba(56, 58, 92, 0.513);
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 5px;
+    border: 1,5px solid rgba(255, 255, 255, 0.315);
+}
