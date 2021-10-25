@@ -1,7 +1,8 @@
 .presentation{
-    background: linear-gradient(74deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(58,133,127);
+background: radial-gradient(circle, rgba(58,133,127,1) 58%, rgba(47,63,247,1) 100%);
     align-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
@@ -9,7 +10,7 @@
 
 
 .presentation_text p { 
-    background: rgba( 255, 255, 255, 0.25 );
+background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
@@ -26,7 +27,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
     .photo_perso img:hover {
     transform: scale(0.75);
-
     opacity: 0, 8;
     transition: all .2s;
 }
@@ -43,4 +43,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     font-size: 5vh;
+}
+
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
