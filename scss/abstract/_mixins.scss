@@ -1,6 +1,9 @@
 @mixin bg-center($url) {
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: bg-center;
 }
 
 @mixin for-phone-only {

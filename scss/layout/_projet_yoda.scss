@@ -1,0 +1,12 @@
+.partie_1{
+    height: auto;
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+    @include bg-center ('img');
+
+
+    img{
+        max-width: 50%;
+        height: 0 auto;
+    }
+}
