@@ -7,6 +7,25 @@
     
 }
 
+@mixin partie-projet {
+    height: auto;
+    width: 90%;
+    margin: 15% auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    border: 1px solid rgb(0, 225, 255);
+    img{ 
+        height: 0 auto;
+        width:100%;
+        margin-top: 2%;
+    }
+    
+}
+
 @mixin for-phone-only {
     @media (max-width: 599px) { @content; }
 }

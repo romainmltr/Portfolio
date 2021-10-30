@@ -1,16 +1,18 @@
 .partie_1{
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 10%;
-    img{ 
-        height:100%;
-        width:100%;
-        margin-top: 10%
-    }
-    @include bg-center(img);
-
-    .partie_1 h2 {
-        display: flex;
-    }
+    @include partie-projet;
   }
+
+  .partie_2{
+      @include partie-projet;
+  }
+
+  .partie_3{
+    @include partie-projet;
+}
+
+
+.partie_4{
+    @include partie-projet;
+}
+
+

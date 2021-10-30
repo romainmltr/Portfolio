@@ -1,5 +1,6 @@
 body  {
     background-color: rgba(167, 159, 159, 0.404);
+    
 }
 
 .container{
@@ -19,6 +20,7 @@ body  {
         border-radius: 5px;
         border: 1,5px solid rgba(255, 255, 255, 0.315);
         text-decoration: none;
+        
     }
 }
 
@@ -33,11 +35,12 @@ body  {
 
 #nav ul a {
     text-decoration: none;
-    font-size: 100%;
+    font-size: 175%;
     background: rgba( 123, 193, 173, 0.15 );
     box-shadow: 0 9px 32px 0 rgba(56, 58, 92, 0.513);
     backdrop-filter: blur( 9.5px );
     -webkit-backdrop-filter: blur( 15.5px );
     border-radius: 5px;
     border: 1,5px solid rgba(255, 255, 255, 0.315);
+    color: black;
 }
