@@ -54,3 +54,15 @@ footer{
     margin-bottom: 20px;
     font-size: 25px;
 }
+
+
+@media screen and (max-width:1024px) {
+
+   .presentation{
+       @include for-big-desktop-up;
+
+
+
+   }
+
+}
