@@ -25,6 +25,9 @@
 
 .card-1{
     @include card_competence;
+    @include mobile-only{
+              grid-template-columns: 1fr;
+          }
     .card-1 p { 
         margin-left: 5px;
         margin-right: 5px;

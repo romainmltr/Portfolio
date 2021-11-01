@@ -5,3 +5,7 @@ $background:yellow;
 $title_1:mixin-exists($name: bg_center);
 $partie1:red;
 
+$breakpoints: (
+  mobile: 599px
+);
+
