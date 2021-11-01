@@ -6,9 +6,9 @@
     height:65vh;
     width: 0 auto ;
     gap: 5px;
-    background-color:palegreen;
+    background: linear-gradient(180deg, #0042a0 0%, #576ca0 52%);
     img {
-        max-width: 100%;
+        max-width: 85%;
         height: 0 auto;
         grid-row: 1/ 4;
         grid-column: 1 /2;
@@ -16,7 +16,7 @@
     #img-projet1 {
         max-width: 100%;
         height: 100%;
-        grid-row: 1/ 8;
+        grid-row: 2/ 4;
         grid-column: 2/ 4;
     }
 }
@@ -55,9 +55,9 @@
     height:65vh;
     width: 0 auto ;
     gap: 5px;
-    background-color:palegreen;
+    background: linear-gradient(0deg, #0042a0 0%, #576ca0 52%);
     img {
-        max-width: 100%;
+        max-width: 85%;
         height: 0 auto;
         grid-row: 1/ 4;
         grid-column: 1 /2;

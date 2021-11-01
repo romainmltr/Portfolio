@@ -25,15 +25,30 @@
 
 .card-1{
     @include card_competence;
+    .card-1 p { 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
+
+
 
 .card-2{
     @include card_competence;
+    .card-2 p { 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 .card-3{
     @include card_competence;
+    .card-3 p { 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
+
 
 .global-card{
     width: 100%;
