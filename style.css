@@ -124,7 +124,7 @@ footer {
 .fond {
   height: 750px;
   width: 100%;
-  background-image: url("/image/pexels-pixabay-270348.jpg");
+  background-image: url("../../image/pexels-pixabay-270348.jpg");
   background-size: 100%;
   border-radius: 5px;
   margin-top: 50px;
