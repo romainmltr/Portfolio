@@ -1,6 +1,10 @@
-@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url(KumbhSans-Regular.ttf);
+}
 body {
   background-color: rgba(167, 159, 159, 0.404);
+  font-family: KumbhSans-Regular;
 }
 
 .container {

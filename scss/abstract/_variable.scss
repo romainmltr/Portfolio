@@ -11,4 +11,9 @@ $background:yellow;
 $title_1:mixin-exists($name: bg_center);
 $partie1:red;
 
+@font-face {
+        font-family: KumbhSans-Regular;
+        src: url(KumbhSans-Regular.ttf);
+};
+
 
