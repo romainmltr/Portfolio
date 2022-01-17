@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 120px;
+    gap: 20px;
+}
+
+.item {
+    height: 100%;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.red {
+    background-color: crimson;
+    grid-column: 1;
+}
+
+
+.green {
+    background-color: darkolivegreen;
+    grid-column: 2;
+}
+
+.blue {
+    background-color:darkslateblue;
+    grid-column: 3
+}

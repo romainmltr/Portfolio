@@ -1,0 +1,28 @@
+.btn, .btn-secondary {
+  width: 1150px;
+  height: 40px;
+  display: inline-block;
+  background-color: lightblue;
+  transition: all 0.3;
+  color: white;
+  background: url("image.png");
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 1200px) {
+  .btn, .btn-secondary {
+    width: 250px;
+    height: 60px;
+  }
+}
+.btn:hover, .btn-secondary:hover {
+  background-color: #5fb3ce;
+}
+.btn-secondary {
+  background-color: red;
+}
+.btn-secondary:hover {
+  background-color: #990000;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+.btn {
+    width: 1150px;
+    height: 40px;
+    display: inline-block;
+    background-color: $btn-primary;
+    transition: all 0.3;
+    color: white;
+    @include bg-center ('image.png');
+    @include xl {
+        width: 250px;
+        height: 60px;
+    }
+
+    &:hover{
+        background-color: darken($btn-primary, 20%);
+
+    }
+    &-secondary {
+        @extend .btn;
+        background-color: $btn-secondary;
+
+        &:hover {
+            background-color: darken($btn-secondary, 20%);
+        }
+    }
+}
